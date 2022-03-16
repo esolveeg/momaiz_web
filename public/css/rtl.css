@@ -1,0 +1,180 @@
+html,
+body,
+.main-menu .navigation li a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.rev_slider_wrapper .slide-content-box .button a,
+.single-footer-widget .our-info a {
+    font-family: "Cairo", sans-serif;
+}
+
+.fl-right,
+.pull-left,
+.main-menu .navigation li,
+.header-area .header-right ul li,
+.single-footer-widget form.appointment-form button {
+    float: right !important;
+}
+.fl-left,
+.pull-right,
+.mainmenu-right-box .consultation-button,
+.header-area .header-right ul {
+    float: left !important;
+}
+
+.tx-left {
+    text-align: left !important;
+}
+.tx-right,
+.sec-title h1,
+.header-area .header-right ul li {
+    text-align: right !important;
+}
+
+.ml-left-5 {
+    margin-left: 5px !important;
+}
+
+.ml-right-5 {
+    margin-right: 5px !important;
+}
+.header-area .header-right {
+    padding-left: 0 !important;
+}
+.rev_slider_wrapper .slide-content-box {
+    text-align: right;
+}
+.rev_slider_wrapper .slide-content-box h1,
+.header-area .header-right ul li .text-holder h4,
+.single-footer-widget .our-info a {
+    direction: rtl;
+}
+.single-footer-widget .our-info a i {
+    transform: rotate(180deg);
+    margin-right: 10px;
+}
+.sec-title .border::before {
+    left: auto !important;
+    right: 0;
+}
+.medical-departments-area .owl-controls {
+    left: 0;
+    right: auto !important;
+}
+
+.text-center h1 {
+    text-align: center !important;
+}
+.sec-title .border.center-before::before {
+    left: 50% !important;
+    /* transform: translateY(50px); */
+}
+.single-footer-widget .usefull-links li a::before {
+    display: none;
+}
+.single-footer-widget .title .border {
+    float: right !important;
+}
+.rtl {
+    direction: rtl;
+}
+
+.welcome-area .text-holder .single-item .iocn-box {
+    left: auto !important ;
+    right: 0;
+}
+.welcome-area .text-holder .single-item {
+    padding-left: 0 !important;
+    padding-right: 45px;
+}
+.contact-form-area .contact-form form input[type="text"],
+.contact-form-area .contact-form form input[type="email"],
+.contact-form-area .contact-form form textarea {
+    text-align: right;
+}
+
+.quick-contact .contact-info li {
+    padding-left: 0 !important;
+    padding-right: 35px !important;
+    direction: rtl;
+}
+.quick-contact .contact-info li .icon-holder {
+    left: auto !important;
+    right: 0 !important;
+}
+.quick-contact .social-links li {
+    float: right !important;
+    margin-right: 0 !important;
+    margin-left: 25px;
+}
+
+.service-area .tab-menu li {
+    margin-right: 0 !important;
+    margin-left: 30px !important;
+}
+
+.header-area .header-right ul li .icon-holder {
+    left: auto !important;
+    right: 0;
+}
+@media (max-width: 991px) {
+    .md-none {
+        float: none !important;
+    }
+}
+.header-area .header-right ul li,
+.header-area .header-right ul li:last-child {
+    padding-right: 50px;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 30px;
+}
+
+.single-footer-widget .usefull-links.fl-lft {
+    float: right;
+    width: 130px;
+    border-right: none !important;
+    margin-right: 0 !important;
+
+    border-left: 1px solid #2f3132;
+    margin-left: 30px;
+}
+.mainmenu-right-box .consultation-button a i {
+    margin-left: 0 !important;
+    margin-right: 10px;
+}
+.single-footer-widget .our-info a i {
+    padding-left: 0 !important;
+    padding-right: 7px;
+}
+
+.breadcrumb-bottom .fa-angle-right {
+    transform: rotate(180deg);
+}
+
+.single-footer-widget form.appointment-form input[type="text"],
+.single-footer-widget form.appointment-form input[type="email"],
+.single-footer-widget form.appointment-form textarea {
+    padding-right: 40px !important;
+    padding-left: 15px !important;
+    text-align: right !important;
+}
+.single-footer-widget form.appointment-form .input-box .icon-box {
+    left: auto !important;
+    right: 0;
+}
+.rev_slider_wrapper .slide-content-box h1 {
+    font-family: "Cairo", sans-serif;
+    letter-spacing: none;
+}
+.owl-nav {
+    direction: rtl;
+}
+
+.owl-nav .fa {
+    transform: rotate(180deg);
+}
